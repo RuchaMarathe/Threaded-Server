@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc udp_threaded_server.c -o udp_threaded_server -pthread
+
+clean:
+	rm udp_threaded_server

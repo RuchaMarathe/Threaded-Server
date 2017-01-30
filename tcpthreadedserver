@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc tcp_threaded_server.c -o tcp_threaded_server -pthread
+
+clean:
+	rm tcp_threaded_server
